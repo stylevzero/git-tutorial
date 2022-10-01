@@ -101,3 +101,31 @@ En el siguiente ejemplo, borra los commits posteriores al que le indiquemos, ose
 git reset --hard "id de commit"
 ```
 
+### Configuración para conectarnos a un repositorio de Github
+
+Si queremos conectar nuestro proyecto local a un repositorio remoto en github, debemos hacerlo mediante el siguiente comando:
+
+```
+git add origin https://laurldemirepositorioengithub.git
+```
+Para comprobar que lo hemos agregado de forma correcta, podemos ejecutar el siguiente comando
+
+
+```
+git remote -v
+```
+
+Una vez conectado, si deseamos subir nuestros commit y nuestra rama, debemos ejecutar el siguiente comando:
+
+
+```
+git push origin https://laurldemirepositorioengithub.git
+```
+
+### Ramas (Branchs)
+
+Si deseamos crear una nueva rama, lo hacemos mediante el comando:
+
+```
+git branch elnombredelanuevarama
+```
