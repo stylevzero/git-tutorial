@@ -1,4 +1,4 @@
-# Git tutorial
+# Git tutorial 📘
 
 ### Configuración inicial que utilizaremos para indentificarnos
 (Desde la línea de comandos - Git Bash)
@@ -128,4 +128,10 @@ Si deseamos crear una nueva rama, lo hacemos mediante el comando:
 
 ```
 git branch elnombredelanuevarama
+```
+
+Si quisieramos posicionarnos en la nueva rama, usariamos el comando:
+
+```
+git checkout elnombredelanuevarama
 ```
