@@ -1,7 +1,7 @@
 # Git tutorial 📘
 
 ### Configuración inicial que utilizaremos para indentificarnos
-(Desde la línea de comandos - Git Bash)
+(Desde la línea de comandos - Git Bash) ⚙️
 
 ##### Configuramos el nombre
 
